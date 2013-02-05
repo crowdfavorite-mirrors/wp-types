@@ -1,11 +1,11 @@
 === Types - Custom Fields and Custom Post Types Management ===
 Contributors: brucepearson, AmirHelzer, jozik, mihaimihai
 Donate link: http://wp-types.com
-Tags: CMS, custom field, custom fields, custom post type, custom post types, post, post type, post types, cck, taxonomy, fields, types, relationships, WPML
+Tags: CMS, custom field, custom fields, custom post type, custom post types, post, post type, post types, cck, taxonomy, fields
 License: GPLv2
 Requires at least: 3.1
 Tested up to: 3.5.0
-Stable tag: 1.1.3.3
+Stable tag: 1.1.3.4
 
 The complete and reliable plugin for managing custom post types, custom taxonomy and custom fields.
 
@@ -134,6 +134,9 @@ Additionally, Types is the only plugin that lets you define parent/child relatio
 5. Bulk editing child content using Field Tables
 
 == Changelog ==
+
+= 1.1.3.4 =
+* Fix adding child posts for WordPress 3.5
 
 = 1.1.3.2 =
 * Fix 'em' tags in radio.php and select.php
@@ -271,3 +274,6 @@ Fix for WP 3.5
 
 = 1.1.3.2 =
 You can have localized slugs for custom post types
+
+= 1.1.3.4 =
+Fix adding child posts for WordPress 3.5
